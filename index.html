@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Monitor System</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="img-text">
+      <h1>Task Monitor System</h1>
+    </div>
+    <!-- <div class="img-container">
+      <img
+        src="https://images.unsplash.com/photo-1586473219010-2ffc57b0d282?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="A person stressed up of the many tasks he has to complete"
+      />
+    </div> -->
+    <div id="buttons">
+      <form action="" id="my_form">
+        <input type="text" id="input_button" placeholder="Search task....." />
+        <button type="submit" id="add_task">
+          Add <i class="fa-solid fa-circle-plus"></i>
+        </button>
+        <button type="reset" id="reset_task">
+          Delete <i class="fa-solid fa-trash"></i>
+        </button>
+        <button type="button" id="complete_task">
+          Completed <i class="fa-sharp fa-solid fa-circle-dot"></i>
+        </button>
+      </form>
+    </div>
+    <div>
+      <ul id="list"></ul>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

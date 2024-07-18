@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://images.unsplash.com/photo-1586473219010-2ffc57b0d282?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: 0 -700px;
+    background-repeat: no-repeat;
+}
+.img-container{
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.img-container img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+.img-text{
+    position: absolute;
+    transform: translate(50%);
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+    text-align: center;
+    right: 50%;
+    color: lightgoldenrodyellow;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight:weight;
+    font-style: normal;
+    text-decoration: underline;
+}
+.fa-trash{
+    color: red;
+}
+#reset_task{
+    color: red;
+
+}
+.fa-circle-plus{
+    color: rgb(111, 111, 223);
+}
+#buttons{
+    position: absolute;
+    top: 110px;
+    left: 30%;
+    justify-content: center;
+    transform: translateX(50%);
+    z-index: 1;
+}
+#list{
+    position:absolute;
+    left: 10px;
+    bottom: 10px;
+}

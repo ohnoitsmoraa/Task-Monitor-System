@@ -94,6 +94,12 @@ Run the JSON server using the provided db.json file.
 
     `json-server --watch db.json`
 
+## Live Link
+
+To view this project through a link, click open the following link:
+
+    `https://ohnoitsmoraa.github.io/Task-Monitor-System/`
+
 ### _Authors_
 
 This website was contributed to by:

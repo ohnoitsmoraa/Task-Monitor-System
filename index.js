@@ -1,5 +1,5 @@
 // API endpoint for fetched data
-const apiUrl = "https://jsonplaceholder.typicode.com/todos?_limit=10";
+const apiUrl = "http://localhost:3000/tasks";
 
 // Selecting elements from the DOM
 const inputButton = document.getElementById("input_button");

@@ -1,5 +1,5 @@
 // API endpoint for fetched data
-const apiUrl = "http://localhost:3000/tasks";
+const apiUrl = "https://task-monitor-backend.vercel.app/tasks";
 
 // Selecting elements from the DOM
 const inputButton = document.getElementById("input_button");
